@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+# Voting Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+deployed voting contract using quicknode Rpc url on goerli testnet.
+you can genrate a new candidate ,cast vote to candidate present in candidates array.
+getCandidate function returns array of candidates.
+all details of a candidate id stored in a struct
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
